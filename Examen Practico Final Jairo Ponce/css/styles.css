@@ -1,0 +1,94 @@
+@media (max-width: 480px){
+    .navbar{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    header{
+        display: flex;
+        width: 100vw;
+        height: 175px;
+        align-items: center;
+        margin-top: 59px 36px 0px 36px;
+        
+    
+    }
+    .logo{
+        margin-left: 7.5vw;
+        margin-right: 15.5vw;
+        
+    }
+    .sections{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+        color: #242E52;
+        text-decoration: none;
+        margin-right: 2vw;
+    }
+    button{
+        margin-right: 10vw;
+        margin-left: 10vw;
+        padding: 10px;
+        gap: 10px;
+        width: 134px;
+        height: 44px;
+        background: #8B48BF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        color: #ffffff;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        border: none;
+    }
+    .box{
+        margin-left: 24.5vw;
+        margin-right: 7.5vw;
+    }
+}
+@media (min-width: 481px){
+    header{
+        display: flex;
+        width: 100vw;
+        height: 175px;
+        align-items: center;
+    }
+    .logo{
+        margin-left: 11.5vw;
+        margin-right: 15.5vw;
+        
+    }
+    .sections{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+        color: #242E52;
+        text-decoration: none;
+        margin-right: 2vw;
+    }
+    button{
+        margin-right: 10vw;
+        margin-left: 10vw;
+        padding: 10px;
+        gap: 10px;
+        width: 134px;
+        height: 44px;
+        background: #8B48BF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        color: #ffffff;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        border: none;
+    }
+    .box{
+        display: none;
+    }
+}
